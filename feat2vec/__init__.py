@@ -1,2 +1,3 @@
-from implicitsampler import SamplingStrategy, ImplicitSampler
-from deepfm import DeepFM
+from .implicitsampler import SamplingStrategy, ImplicitSampler
+from .model import DeepFM, Feat2VecModel
+from .scaler import Scaler

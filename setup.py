@@ -1,7 +1,7 @@
 from setuptools import setup
 
-setup(name='dspytools',
-      version='0.0.1',
+setup(name='feat2vec',
+      version='0.8.0',
       description='Feat2Vec Library',
       author='Anonymous Author for Peer Review',
       packages=[
@@ -16,8 +16,8 @@ setup(name='dspytools',
                     'Cython>=0.23.5',
       ],
       install_requires=[
-                     "tensorflow>=1.1.0",
                      "keras>=2.0.8",
+                     "dask>=0.15.0", 
                      "pandas>=0.19.2"
                      "numpy>=1.13.1"
                      "tables>=3.3.0"
